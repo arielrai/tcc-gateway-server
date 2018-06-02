@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @EnableZuulProxy
-@RestController
 public class GatewayServerApplication {
 
 	public static void main(String[] args) {
