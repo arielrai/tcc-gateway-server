@@ -15,4 +15,9 @@ public class GatewayServerApplication {
 		new SpringApplicationBuilder(GatewayServerApplication.class).web(true).run(args);
 	}
 
+	@Bean
+	public AlwaysSampler defaultSampler() {
+		return new AlwaysSampler();
+	}
+	
 }
